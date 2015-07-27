@@ -1,0 +1,24 @@
+{
+  "name": "bare-auth-facebook",
+  "version": "1.0.0",
+  "description": "Stateless authentication with Facebook using Bare Auth",
+  "keywords": [
+    "authentication",
+    "auth",
+    "facebook",
+    "stateless",
+    "bare auth"
+  ],
+  "author": "Matthew Mueller <matt@lapwinglabs.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lapwinglabs/bare-auth-facebook.git"
+  },
+  "main": "lib/server.js",
+  "browser": "lib/client.js",
+  "dependencies": {
+    "facebook-oauth-agent": "^1.0.0",
+    "object-assign": "^3.0.0",
+    "superagent": "^1.2.0"
+  }
+}
