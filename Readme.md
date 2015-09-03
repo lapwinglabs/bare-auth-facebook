@@ -3,7 +3,13 @@
 
   Facebook authentication with [Bare Auth](https://github.com/lapwinglabs/bare-auth).
 
-## Setup steps
+## Installation
+
+```
+npm install bare-auth-facebook
+```
+
+## Setup
 
 ##### 1. Create an App
 
